@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33319FE824DAA3920014FC8D /* cert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 33319FE724DAA3920014FC8D /* cert.cer */; };
 		B8660BC91CFD3EC600AE37E4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8660BC81CFD3EC600AE37E4 /* WebKit.framework */; };
 		B88A68041CB7B723005F74C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B88A68031CB7B723005F74C7 /* main.m */; };
 		B88A68071CB7B723005F74C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B88A68061CB7B723005F74C7 /* AppDelegate.m */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33319FE724DAA3920014FC8D /* cert.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.cer; sourceTree = "<group>"; };
 		B8660BC81CFD3EC600AE37E4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		B88A67FF1CB7B723005F74C7 /* iOS-Cookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Cookie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88A68031CB7B723005F74C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				B8D741F71DF7BE1A00FC788B /* RootViewController.xib */,
 				B88A680E1CB7B723005F74C7 /* Assets.xcassets */,
 				B88A68101CB7B723005F74C7 /* LaunchScreen.storyboard */,
+				33319FE724DAA3920014FC8D /* cert.cer */,
 				B88A68131CB7B723005F74C7 /* Info.plist */,
 				B88A68021CB7B723005F74C7 /* Supporting Files */,
 			);
@@ -224,6 +227,7 @@
 				TargetAttributes = {
 					B88A67FE1CB7B723005F74C7 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 62P5W4AGBN;
 					};
 				};
 			};
@@ -232,6 +236,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -257,6 +262,7 @@
 				B8D741F91DF7BE1A00FC788B /* RootViewController.xib in Resources */,
 				B88A680F1CB7B723005F74C7 /* Assets.xcassets in Resources */,
 				B8D742251DF7C00B00FC788B /* WKWebViewViewController.xib in Resources */,
+				33319FE824DAA3920014FC8D /* cert.cer in Resources */,
 				B8D742231DF7C00B00FC788B /* UIWebViewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,10 +389,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62P5W4AGBN;
 				INFOPLIST_FILE = "iOS-Cookie/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.iOS-Cookie";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzkjpay.MKLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -395,10 +402,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62P5W4AGBN;
 				INFOPLIST_FILE = "iOS-Cookie/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.iOS-Cookie";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzkjpay.MKLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
